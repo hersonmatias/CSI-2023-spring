@@ -22,16 +22,22 @@ int main() {
     */
 // Variables and Expressions
    
-     // Declare
-
+    // Declare
      float myNum; 
+     double alsoNum;
 
-     // Initialize
+    // Initialize
+     myNum = 3.14;
+
+    // Access
+     cout << myNum / 3 << endl;
+
+        // Access alsoNum and *assign* it with the value of myNum
+        alsoNum = myNum;
+
+    // Update (Assign)
+        // Ex1 - Assign myNum with 10 more than itself
+        myNum = myNum + 10;
      
-     //num1 = ;
-
-     // Access
-
-     // Update
-}
+}   
 
