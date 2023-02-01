@@ -47,6 +47,10 @@ int main() {
         
         cout << "myNum: " << myNum << endl;
 
+       // Wont work, because "=" is assignment, not equals;
+            //myNum / 2 =  myNum - 7
+        
+
      
 }   
 
