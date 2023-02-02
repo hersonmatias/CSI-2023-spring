@@ -49,7 +49,39 @@ int main(){
     // Subtract the two numbers
     num3 = num1 - num2;
     // *Find the value of the first number modulo second number
-    num3 = num1 % num2;
+    num3 = num1 % num2; // Remainder of the division of num1 and num2
+
+    // Reminder: will be on exam
+    // Check if a number is even
+    // Check number % 2 is zero if even
+            // number % 2 is 1 if odd
+    
+    if (num3 % 2 == 0) {
+        cout << "even" << endl;
+    }
+    else {
+        cout << "odd" << endl;
+    }
+
+    // What are the possible values of any number -- (numX % 5)
+    // 0, 1, 2, 3, 4, 
+    // Ex: 50 % 5 = 0, 51 % 5 = 1, 52 % 5 = 2, 53 % 5 = 3, 54 % 5 = 4, 55 % 5 = 0
+    
+    /* 
+    PART 3 - STRINGS   
+    */
      
-    cout << num3 << endl;
+    // access by index
+    string msg2 = "Coding is fun!";
+    string msg3 = "The first letter of the string is: ";
+
+    cout << msg3[7] << endl; 
+    
+    // String comparisons
+        // equal ==, greater than >, and less than <
+        // Declare two strings to hold fruits
+        string fruit1 = "Apple";
+        string fruit2 = "Fruitx";
+    cout << (fruit1 > fruit2) << endl;
+ 
 }
